@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E11FF7401E4A2F0C009AF0A9 /* mySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = E11FF73F1E4A2F0C009AF0A9 /* mySingleton.m */; };
 		E1D5EF401E420BE70032D6EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5EF3F1E420BE70032D6EC /* main.m */; };
 		E1D5EF431E420BE70032D6EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5EF421E420BE70032D6EC /* AppDelegate.m */; };
 		E1D5EF491E420BE70032D6EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D5EF471E420BE70032D6EC /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E11FF73E1E4A2F0C009AF0A9 /* mySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mySingleton.h; sourceTree = "<group>"; };
+		E11FF73F1E4A2F0C009AF0A9 /* mySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mySingleton.m; sourceTree = "<group>"; };
 		E1D5EF3B1E420BE70032D6EC /* PickAx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickAx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D5EF3F1E420BE70032D6EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1D5EF411E420BE70032D6EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 			children = (
 				E1D5EF4C1E420BE70032D6EC /* LaunchScreen.storyboard */,
 				E1D5EF471E420BE70032D6EC /* Main.storyboard */,
+				E11FF73E1E4A2F0C009AF0A9 /* mySingleton.h */,
+				E11FF73F1E4A2F0C009AF0A9 /* mySingleton.m */,
 				E1D5EF411E420BE70032D6EC /* AppDelegate.h */,
 				E1D5EF421E420BE70032D6EC /* AppDelegate.m */,
 				E1D5EF4F1E420BE70032D6EC /* Info.plist */,
@@ -172,6 +177,7 @@
 				E1D5EF5D1E4216160032D6EC /* informationVC.m in Sources */,
 				E1D5EF571E4215680032D6EC /* settingsVC.m in Sources */,
 				E1D5EF401E420BE70032D6EC /* main.m in Sources */,
+				E11FF7401E4A2F0C009AF0A9 /* mySingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +334,7 @@
 				E1D5EF541E420BE70032D6EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
